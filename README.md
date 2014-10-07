@@ -18,3 +18,7 @@ If you're running a \*nix system like mine, you might need to prepend `sudo` to 
     $ easy_install --find-links http://www.pythonware.com/products/pil/ Imaging
 
 (Thanks to [athena geek](http://athenageek.wordpress.com/2009/06/09/easy_install-pil-not-so-easy/) for that recipe.)
+
+## For Developers
+
+`tumblr-steganographr` uses [`sniffer`](https://pypi.python.org/pypi/sniffer) and [`nose`](https://pypi.python.org/pypi/nose/1.3.4) for running tests, so you will need those installed in order to contribute to this project.

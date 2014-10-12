@@ -1,17 +1,18 @@
 tumblr-steganographr
 =====================
 
-A Python script that lets you hide and retrieve encrypted data in Tumblr posts.
+A Python script that lets you hide and retrieve encrypted data in Tumblr posts. It uses NaCl, AES, and simple LSB steganography to achieve its goals. In theory, this would allow for the development of an ad-hoc social network on top of Tumblr.
 
 Uses the [Python Imaging Library](http://www.pythonware.com/products/pil/), which is available for easy installation on the [Python Package Index](https://pypi.python.org/pypi/PIL) by the likes of [`easy_install`](https://pypi.python.org/pypi/setuptools#installation-instructions) and (my personal preference) [`pip`](https://pip.pypa.io/en/latest/installing.html).
 
-## Installing PIL (prerequisite)
+## Installing prerequisites
 
 **Using `pip`:**
 
     $ pip install PIL --allow-unverified PIL --allow-all-external
+    $ pip install simple-crypt pytumblr pynacl
 
-If you're running a \*nix system like mine, you might need to prepend `sudo` to that command.
+If you're running a \*nix system like mine, you might need to prepend `sudo` to those commands.
 
 **Using `easy_install`:**
 
